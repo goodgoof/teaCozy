@@ -1,0 +1,158 @@
+body {
+  font-size: 22px;
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.float-right:nth-child(1n+2) {
+  float: right;
+}
+
+ul li{
+  margin: 0 10px;
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+ul li a{
+  color: seashell;
+}
+div.logo {
+  height: 50px;
+  text-align: center;
+  width: 100px;
+  margin-left: 10px;
+}
+img.logo {
+  margin-top: 15px;
+}
+
+/* css for body*/
+
+div.main-content {
+  background-image: url("./images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: 0 auto;
+  height: 700px;
+  position: relative;
+  width: 1200px;
+
+
+}
+
+div.mission {
+  position: absolute;
+  width: inherit;
+  background-color: black;
+  margin-top: 25%;
+  text-align: center;
+  height:120px;
+
+
+}
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+.tea {
+  margin:auto;
+  width: 1000px;
+}
+
+ #image1, #image2, #image3,#image4,#image5 {
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+h4{
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.images2 {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.address-content {
+  background-image: url("./images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding-top: 20px;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 100px;
+
+}
+h2#locations {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+h2{
+  text-align:center;
+}
+.location {
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  background-color: black;
+  opacity: 1;
+  line-height: 2.25;
+  text-align: center;
+}
+
+p, h3, {
+  text-align: center;
+
+
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
